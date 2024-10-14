@@ -70,6 +70,11 @@ This snippet showcases a non-modal, temporary message that draws the user's atte
 
 ## 18. Need Help Support Page with Search in Bootstrap 5
 This snippet showcases a user-friendly support page that provides a search function and contact information to assist users.
+  - live Preview: https://docsallover.com/snippets/bootstrap/need-help-support-page-with-search-in-bootstrap-5/
+
+## 19. Notification Page Design Examples in Bootstrap 5
+This snippet showcases various notification page designs to inspire and guide you in creating effective notifications for your website.
+  - live Preview: https://docsallover.com/snippets/bootstrap/notification-page-design-examples-in-bootstrap-5/
 
 
 ## License
@@ -87,9 +92,3 @@ Follow us on:
 - [Threads.net](https://threads.net/docsallover.tech)
 
 and visit our website to know more about our tutorials and blogs.
-  - live Preview: https://docsallover.com/snippets/bootstrap/need-help-support-page-with-search-in-bootstrap-5/
-
-## 19. Notification Page Design Examples in Bootstrap 5
-This snippet showcases various notification page designs to inspire and guide you in creating effective notifications for your website.
-  - live Preview: https://docsallover.com/snippets/bootstrap/notification-page-design-examples-in-bootstrap-5/
-
