@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        body {
+    padding-top: 100px;
+}
+
+.offer-area .section-title {
+    background-color: transparent;
+    padding: 0;
+}
+
+.offer-area .section-title h2 {
+    padding-left: 0;
+    font-weight: 700;
+}
+
+.offer-area .section-title h2 .dot {
+    display: none;
+}
+
+.offer-box {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.offer-box::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 100%;
+    background-color: #ffffff;
+    opacity: 0.4;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.offer-box::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -100%;
+    background-color: #ffffff;
+    opacity: 0.4;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.offer-box .category {
+    position: absolute;
+    left: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    right: 0;
+    bottom: 25px;
+    border: 1px solid #ececec;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.offer-box .category::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #ededed;
+    opacity: 0.94;
+    z-index: 1;
+    margin: 6px;
+}
+
+.offer-box .category h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.offer-box img {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.offer-box .box-inner {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    padding: 15px;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #ededed;
+    margin: 30px;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.offer-box .box-inner .inner-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: 0 auto;
+}
+
+.offer-box .box-inner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #ededed;
+    opacity: 0.94;
+    z-index: 1;
+    margin: 6px;
+    z-index: -1;
+}
+
+.offer-box .box-inner h3 {
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.offer-box .box-inner ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.offer-box .box-inner ul li {
+    margin-bottom: 10px;
+}
+
+.offer-box .box-inner ul li:last-child {
+    margin-bottom: 0;
+}
+
+.offer-box .box-inner ul li a {
+    font-size: 13px;
+    color: #666666;
+    position: relative;
+    display: inline-block;
+}
+
+.offer-box .box-inner ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: #222222;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.offer-box .box-inner ul li a:hover,
+.offer-box .box-inner ul li a:focus {
+    color: #222222;
+}
+
+.offer-box .box-inner ul li a:hover::before,
+.offer-box .box-inner ul li a:focus::before {
+    width: 100%;
+}
+
+.offer-box:hover img,
+.offer-box:focus img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.offer-box:hover::after,
+.offer-box:focus::after {
+    left: 100%;
+}
+
+.offer-box:hover::before,
+.offer-box:focus::before {
+    left: -100%;
+}
+
+.offer-box:hover .category,
+.offer-box:focus .category {
+    opacity: 0;
+    visibility: hidden;
+    bottom: 0;
+}
+
+.offer-box:hover .box-inner,
+.offer-box:focus .box-inner {
+    opacity: 1;
+    visibility: visible;
+    top: 0;
+}
+
+.single-offer-box {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.single-offer-box::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #222222;
+    opacity: .50;
+    z-index: 2;
+    border-radius: 2px;
+}
+
+.single-offer-box img {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 2px;
+}
+
+.single-offer-box .offer-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 3;
+}
+
+.single-offer-box .offer-content h3 {
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.single-offer-box .offer-content span {
+    display: block;
+    color: #ffffff;
+}
+
+.single-offer-box a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+.single-offer-box:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.offer-slides.owl-theme .owl-dots {
+    margin-top: 30px;
+}
+
+.offer-slides.owl-theme .owl-nav {
+    margin-top: 0;
+}
+
+.offer-slides.owl-theme .owl-nav [class*=owl-] {
+    position: absolute;
+    left: -5px;
+    top: 0;
+    height: 83.5%;
+    width: 34px;
+    background-color: #dedddc;
+    font-size: 20px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: 0;
+    border-radius: 0;
+    margin: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.offer-slides.owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.offer-slides.owl-theme .owl-nav [class*=owl-].owl-next {
+    left: auto;
+    right: -5px;
+}
+
+.offer-slides.owl-theme:hover .owl-nav [class*=owl-] {
+    left: -18px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.offer-slides.owl-theme:hover .owl-nav [class*=owl-].owl-next {
+    left: auto;
+    right: -18px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="offer-box">
+                    <img src="https://i.imgur.com/g4t9rWz.jpg" alt="image">
+                    <div class="category">
+                        <h4>Women's</h4>
+                    </div>
+                    <div class="box-inner">
+                        <div class="inner-content">
+                            <h3>Women's</h3>
+                            <ul>
+                                <li><a href="#">Woman Accessories</a></li>
+                                <li><a href="#">Man Accessories</a></li>
+                                <li><a href="#">Sunglasses</a></li>
+                                <li><a href="#">Belts</a></li>
+                                <li><a href="#">Hats</a></li>
+                                <li><a href="#">Scrafs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="offer-box">
+                    <img src="https://i.imgur.com/x5VQQH4.jpg" alt="image">
+                    <div class="category">
+                        <h4>Accessories</h4>
+                    </div>
+                    <div class="box-inner">
+                        <div class="inner-content">
+                            <h3>Accessories</h3>
+                            <ul>
+                                <li><a href="#">Woman Accessories</a></li>
+                                <li><a href="#">Man Accessories</a></li>
+                                <li><a href="#">Sunglasses</a></li>
+                                <li><a href="#">Belts</a></li>
+                                <li><a href="#">Hats</a></li>
+                                <li><a href="#">Scrafs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+                <div class="offer-box">
+                    <img src="https://i.imgur.com/UpbgwOL.jpg" alt="image">
+                    <div class="category">
+                        <h4>Men's</h4>
+                    </div>
+                    <div class="box-inner">
+                        <div class="inner-content">
+                            <h3>Men's</h3>
+                            <ul>
+                                <li><a href="#">Woman Accessories</a></li>
+                                <li><a href="#">Man Accessories</a></li>
+                                <li><a href="#">Sunglasses</a></li>
+                                <li><a href="#">Belts</a></li>
+                                <li><a href="#">Hats</a></li>
+                                <li><a href="#">Scrafs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
