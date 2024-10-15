@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Bootstrap 5 Notification UI Design</title>
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap);
+
+        body {
+            font-family: "Roboto", sans-serif;
+            background: #E6E9ED;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        .notification-ui a:after {
+            display: none;
+        }
+
+        .notification-ui_icon {
+            position: relative;
+        }
+
+        .notification-ui_icon .unread-notification {
+            display: inline-block;
+            height: 7px;
+            width: 7px;
+            border-radius: 7px;
+            background-color: #66BB6A;
+            position: absolute;
+            top: 7px;
+            left: 12px;
+        }
+
+        @media (min-width: 900px) {
+            .notification-ui_icon .unread-notification {
+                left: 20px;
+            }
+        }
+
+        .notification-ui_dd {
+            padding: 0;
+            border-radius: 10px;
+            -webkit-box-shadow: 0 5px 20px -3px rgba(0, 0, 0, 0.16);
+            box-shadow: 0 5px 20px -3px rgba(0, 0, 0, 0.16);
+            border: 0;
+            max-width: 400px;
+        }
+
+        @media (min-width: 900px) {
+            .notification-ui_dd {
+                min-width: 400px;
+                position: absolute;
+                left: -192px;
+                top: 70px;
+            }
+        }
+
+        .notification-ui_dd:after {
+            content: "";
+            position: absolute;
+            top: -30px;
+            left: calc(50% - 7px);
+            border-top: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-bottom: 15px solid #fff;
+            border-left: 15px solid transparent;
+        }
+
+        .notification-ui_dd .notification-ui_dd-header {
+            border-bottom: 1px solid #ddd;
+            padding: 15px;
+        }
+
+        .notification-ui_dd .notification-ui_dd-header h3 {
+            margin-bottom: 0;
+        }
+
+        .notification-ui_dd .notification-ui_dd-content {
+            max-height: 500px;
+            overflow: auto;
+        }
+
+        .notification-list {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            padding: 20px 0;
+            margin: 0 25px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .notification-list--unread {
+            position: relative;
+        }
+
+        .notification-list--unread:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -25px;
+            height: calc(100% + 1px);
+            border-left: 2px solid #29B6F6;
+        }
+
+        .notification-list .notification-list_img img {
+            height: 48px;
+            width: 48px;
+            border-radius: 50px;
+            margin-right: 20px;
+        }
+
+        .notification-list .notification-list_detail p {
+            margin-bottom: 5px;
+            line-height: 1.2;
+        }
+
+        .notification-list .notification-list_feature-img img {
+            height: 48px;
+            width: 48px;
+            border-radius: 5px;
+            margin-left: 20px;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown notification-ui show">
+                            <a class="nav-link dropdown-toggle notification-ui_icon" href="#" id="navbarDropdown"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-bell"></i>
+                                <span class="unread-notification"></span>
+                            </a>
+                            <div class="dropdown-menu notification-ui_dd show" aria-labelledby="navbarDropdown">
+                                <div class="notification-ui_dd-header">
+                                    <h3 class="text-center">Notification</h3>
+                                </div>
+                                <div class="notification-ui_dd-content">
+                                    <div class="notification-list notification-list--unread">
+                                        <div class="notification-list_img">
+                                            <img src="https://i.imgur.com/zYxDCQT.jpg" alt="user">
+                                        </div>
+                                        <div class="notification-list_detail">
+                                            <p><b>John Doe</b> reacted to your post</p>
+                                            <p><small>10 mins ago</small></p>
+                                        </div>
+                                        <div class="notification-list_feature-img">
+                                            <img src="https://i.imgur.com/AbZqFnR.jpg" alt="Feature image">
+                                        </div>
+                                    </div>
+                                    <div class="notification-list notification-list--unread">
+                                        <div class="notification-list_img">
+                                            <img src="https://i.imgur.com/w4Mp4ny.jpg" alt="user">
+                                        </div>
+                                        <div class="notification-list_detail">
+                                            <p><b>Richard Miles</b> reacted to your post</p>
+                                            <p><small>1 day ago</small></p>
+                                        </div>
+                                        <div class="notification-list_feature-img">
+                                            <img src="https://i.imgur.com/AbZqFnR.jpg" alt="Feature image">
+                                        </div>
+                                    </div>
+                                    <div class="notification-list">
+                                        <div class="notification-list_img">
+                                            <img src="https://i.imgur.com/ltXdE4K.jpg" alt="user">
+                                        </div>
+                                        <div class="notification-list_detail">
+                                            <p><b>Brian Cumin</b> reacted to your post</p>
+                                            <p><small>1 day ago</small></p>
+                                        </div>
+                                        <div class="notification-list_feature-img">
+                                            <img src="https://i.imgur.com/bpBpAlH.jpg" alt="Feature image">
+                                        </div>
+                                    </div>
+                                    <div class="notification-list">
+                                        <div class="notification-list_img">
+                                            <img src="https://i.imgur.com/CtAQDCP.jpg" alt="user">
+                                        </div>
+                                        <div class="notification-list_detail">
+                                            <p><b>Lance Bogrol</b> reacted to your post</p>
+                                            <p><small>1 day ago</small></p>
+                                        </div>
+                                        <div class="notification-list_feature-img">
+                                            <img src="https://i.imgur.com/iIhftMJ.jpg" alt="Feature image">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notification-ui_dd-footer">
+                                    <a href="#!" class="btn btn-success btn-block">View All</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Signup</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+    <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'>
+    </script>
+</body>
+
+</html>
