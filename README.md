@@ -76,7 +76,11 @@ This snippet showcases a user-friendly support page that provides a search funct
 This snippet showcases various notification page designs to inspire and guide you in creating effective notifications for your website.
   - live Preview: https://docsallover.com/snippets/bootstrap/notification-page-design-examples-in-bootstrap-5/
 
+## 20. User-Friendly Travel Booking Form in Bootstrap 5
+This snippet showcases a customizable and user-friendly travel booking form that streamlines the reservation process, allowing users to easily input their preferences and complete their booking.
+  - live Preview: https://docsallover.com/snippets/css/user-friendly-travel-booking-form-in-bootstrap-5/
 
+  
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
