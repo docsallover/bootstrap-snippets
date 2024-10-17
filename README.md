@@ -88,8 +88,8 @@ This snippet showcases a customizable and user-friendly contact form that adapts
 This snippet showcases a customizable and user-friendly travel booking form that streamlines the reservation process, allowing users to easily input their preferences and complete their booking.
   - live Preview: https://docsallover.com/snippets/css/user-friendly-travel-booking-form-in-bootstrap-5/
 
-## 23. Collection of CSS3 Loading Animations 
-This snippet showcases a variety of visually appealing CSS3 loading animations that enhance the user experience and provide feedback during loading processes.
+## 23. Responsive Bootstrap 5 Order Tracking Vertical
+This snippet showcases a clear and informative order tracking component that displays the status and progress of an order in a vertical timeline format.
    - live Preview: https://docsallover.com/snippets/bootstrap/responsive-bootstrap-5-order-tracking-vertical/ 
 
 ## License
