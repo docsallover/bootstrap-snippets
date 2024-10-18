@@ -90,7 +90,12 @@ This snippet showcases a customizable and user-friendly travel booking form that
 
 ## 23. Responsive Bootstrap 5 Order Tracking Vertical
 This snippet showcases a clear and informative order tracking component that displays the status and progress of an order in a vertical timeline format.
-   - live Preview: https://docsallover.com/snippets/bootstrap/responsive-bootstrap-5-order-tracking-vertical/ 
+  - live Preview: https://docsallover.com/snippets/bootstrap/responsive-bootstrap-5-order-tracking-vertical/ 
+
+## 24. Toast Notification to Detect Internet Connection in CSS & JS
+This snippet showcases a user-friendly notification that provides real-time feedback on internet connectivity, ensuring a seamless user experience.
+  - live Preview: https://docsallover.com/snippets/bootstrap/animated-bootstrap-5-modal-success-error-example/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
