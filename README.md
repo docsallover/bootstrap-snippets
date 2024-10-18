@@ -92,8 +92,8 @@ This snippet showcases a customizable and user-friendly travel booking form that
 This snippet showcases a clear and informative order tracking component that displays the status and progress of an order in a vertical timeline format.
   - live Preview: https://docsallover.com/snippets/bootstrap/responsive-bootstrap-5-order-tracking-vertical/ 
 
-## 24. Toast Notification to Detect Internet Connection in CSS & JS
-This snippet showcases a user-friendly notification that provides real-time feedback on internet connectivity, ensuring a seamless user experience.
+## 24. Animated Bootstrap 5 Modal Success & Error Example
+This snippet showcases visually appealing and informative modal windows that provide feedback on user actions with smooth animations and clear messaging.
   - live Preview: https://docsallover.com/snippets/bootstrap/animated-bootstrap-5-modal-success-error-example/
 
 
