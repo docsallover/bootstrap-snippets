@@ -96,6 +96,18 @@ This snippet showcases a clear and informative order tracking component that dis
 This snippet showcases visually appealing and informative modal windows that provide feedback on user actions with smooth animations and clear messaging.
   - live Preview: https://docsallover.com/snippets/bootstrap/animated-bootstrap-5-modal-success-error-example/
 
+## 25. Bootstrap 5 Accordion with Expand and Collapse Icons 
+This snippet showcases a visually appealing and interactive accordion component that allows users to easily expand and collapse content sections, providing a clear and organized structure.
+  - live Preview: https://docsallover.com/snippets/bootstrap/bootstrap-5-accordion-with-expand-and-collapse/
+
+## 26. Bootstrap 5 Responsive Card Grid with Images 
+This snippet showcases a flexible and customizable card grid layout that can be used to display various types of content, such as products, blog posts, or featured items.
+  - live Preview: https://docsallover.com/snippets/bootstrap/bootstrap-5-responsive-card-grid-with-images/
+
+## 27. Bootstrap 5 Multiselect Dropdown with Choices JS 
+This snippet showcases a powerful and customizable multiselect dropdown component that allows users to select multiple options from a list, providing a convenient and efficient way to make selections.
+  - live Preview: https://docsallover.com/snippets/bootstrap/bootstrap-5-multiselect-dropdown-with-choices-js/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
