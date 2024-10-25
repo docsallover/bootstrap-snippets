@@ -108,6 +108,16 @@ This snippet showcases a flexible and customizable card grid layout that can be 
 This snippet showcases a powerful and customizable multiselect dropdown component that allows users to select multiple options from a list, providing a convenient and efficient way to make selections.
   - live Preview: https://docsallover.com/snippets/bootstrap/bootstrap-5-multiselect-dropdown-with-choices-js/
 
+## 28. Breadcrumb Navigation with Bootstrap 5 and FontAwesome
+This snippet showcases a clear and concise breadcrumb navigation component that guides users through a website's hierarchy, using 
+Bootstrap 5 for the structure and FontAwesome for visually appealing icons.
+  - live Preview: https://docsallover.com/snippets/bootstrap/breadcrumb-navigation-with-bootstrap-5/
+
+## 29. Carousel Component with Bootstrap 4 and Owl Carousel
+This snippet showcases a visually appealing and interactive carousel component that allows users to easily navigate through a series of 
+images or content slides, using Bootstrap 4 for the overall layout and Owl Carousel for the carousel functionality.
+  - live Preview: https://docsallover.com/snippets/bootstrap/carousel-component-with-bootstrap-4-and-owl-carous/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
