@@ -118,6 +118,14 @@ This snippet showcases a visually appealing and interactive carousel component t
 images or content slides, using Bootstrap 4 for the overall layout and Owl Carousel for the carousel functionality.
   - live Preview: https://docsallover.com/snippets/bootstrap/carousel-component-with-bootstrap-4-and-owl-carous/
 
+## 30. Multi-Step Form with International Phone Input and Nice Select:
+This snippet showcases a user-friendly multi-step form that guides users through a complex process, incorporating features like international phone input and customizable select dropdowns for a seamless experience.
+  - live Preview: https://docsallover.com/snippets/bootstrap/multi-step-form-with-international-phone-input-and/
+
+## 31. Real-time Password Strength Indicator in Bootstrap 5:
+This snippet showcases an interactive password strength indicator that provides real-time feedback on password complexity, helping users create strong and secure passwords.
+  - live Preview: https://docsallover.com/snippets/bootstrap/real-time-password-strength-indicator-in-bootstrap/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
