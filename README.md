@@ -126,6 +126,14 @@ This snippet showcases a user-friendly multi-step form that guides users through
 This snippet showcases an interactive password strength indicator that provides real-time feedback on password complexity, helping users create strong and secure passwords.
   - live Preview: https://docsallover.com/snippets/bootstrap/real-time-password-strength-indicator-in-bootstrap/
 
+## 32. Modern Pricing Table Design with Bootstrap 4
+This snippet showcases a visually appealing and informative pricing table that allows users to easily compare different pricing plans, making it ideal for e-commerce and SaaS websites.
+  - live Preview: https://docsallover.com/snippets/bootstrap/modern-pricing-table-design-with-bootstrap-4/
+
+## 33. Bootstrap 5 Payment Method Form Page with Invoice
+This snippet showcases a user-friendly and secure payment form that provides a seamless checkout experience, including a clear invoice summary and multiple payment options.
+  - live Preview: https://docsallover.com/snippets/bootstrap/bootstrap-5-payment-method-form-page-with-invoice/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
