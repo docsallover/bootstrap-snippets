@@ -134,6 +134,10 @@ This snippet showcases a visually appealing and informative pricing table that a
 This snippet showcases a user-friendly and secure payment form that provides a seamless checkout experience, including a clear invoice summary and multiple payment options.
   - live Preview: https://docsallover.com/snippets/bootstrap/bootstrap-5-payment-method-form-page-with-invoice/
 
+## 33. Bootstrap 5 Full Height Swiper Slider with Smooth Transitions
+This snippet showcases a modern, full-screen Swiper slider powered by Bootstrap 5, offering seamless navigation and fluid visual effects.
+  - live Preview: https://docsallover.com/snippets/bootstrap/bootstrap-5-full-height-swiper-slider/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
