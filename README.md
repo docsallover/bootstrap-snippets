@@ -138,6 +138,10 @@ This snippet showcases a user-friendly and secure payment form that provides a s
 This snippet showcases a modern, full-screen Swiper slider powered by Bootstrap 5, offering seamless navigation and fluid visual effects.
   - live Preview: https://docsallover.com/snippets/bootstrap/bootstrap-5-full-height-swiper-slider/
 
+## 34. Bootstrap 5 Alerts for Error, Warning, Info, and Success
+This snippet showcases clear and concise Bootstrap 5 alerts, delivering essential feedback with distinct visual cues for error, warning, info, and success.
+  - live Preview: https://docsallover.com/snippets/bootstrap/bootstrap-5-alerts-for-error-warning-info-success/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
