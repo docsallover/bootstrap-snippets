@@ -142,6 +142,10 @@ This snippet showcases a modern, full-screen Swiper slider powered by Bootstrap 
 This snippet showcases clear and concise Bootstrap 5 alerts, delivering essential feedback with distinct visual cues for error, warning, info, and success.
   - live Preview: https://docsallover.com/snippets/bootstrap/bootstrap-5-alerts-for-error-warning-info-success/
 
+## 35. Dark Themed Bootstrap 5 Accordion with Custom Icons
+This snippet showcases a stylish dark-themed Bootstrap 5 accordion, delivering interactive content toggling with unique visual cues through custom icons.
+  - live Preview: https://docsallover.com/snippets/bootstrap/dark-themed-bootstrap-5-accordion-with-custom-icon/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
