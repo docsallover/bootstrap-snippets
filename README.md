@@ -146,6 +146,10 @@ This snippet showcases clear and concise Bootstrap 5 alerts, delivering essentia
 This snippet showcases a stylish dark-themed Bootstrap 5 accordion, delivering interactive content toggling with unique visual cues through custom icons.
   - live Preview: https://docsallover.com/snippets/bootstrap/dark-themed-bootstrap-5-accordion-with-custom-icon/
 
+## 35. Responsive Bootstrap 5 Breadcrumbs with Integrated Background Image
+This snippet showcases an elegant Bootstrap 5 breadcrumb navigation, delivering intuitive site orientation with a visually rich background image for added appeal.
+  - live Preview: https://docsallover.com/snippets/bootstrap/responsive-bootstrap-5-breadcrumbs-with-bg-image/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
