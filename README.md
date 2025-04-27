@@ -150,6 +150,10 @@ This snippet showcases a stylish dark-themed Bootstrap 5 accordion, delivering i
 This snippet showcases an elegant Bootstrap 5 breadcrumb navigation, delivering intuitive site orientation with a visually rich background image for added appeal.
   - live Preview: https://docsallover.com/snippets/bootstrap/responsive-bootstrap-5-breadcrumbs-with-bg-image/
 
+## 37. Responsive Bootstrap 5 Comment Submission Form Box
+This Bootstrap 5 snippet offers a ready-to-use, responsive comment submission form with a clean, user-friendly interface for seamless integration and optimal display across all devices, allowing visitors to easily share their thoughts and feedback
+  - live Preview: https://docsallover.com/snippets/bootstrap/responsive-bootstrap-5-comment-submission-form-box/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
