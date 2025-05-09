@@ -1,4 +1,12 @@
-# Reusable Bootstrap Code Snippets for Web Development
+![docsallover-snippets](https://github.com/user-attachments/assets/08b9a424-9347-4cbe-b736-b340764e2124)
+
+<p align="center">
+  <a href="https://docsallover.com/">
+    <img src="https://docsallover.com/static/images/logo-landscape.png" alt="DocsAllOver Logo" width="500">
+  </a>
+</p>
+
+<h1 align="center">Reusable Bootstrap Code Snippets for Web Development</h1>
 
 ## 1. Responsive Dark Mode Toggle Sidebar with HTML, CSS, and JS
 This snippet showcases a versatile sidebar component that seamlessly adapts to different screen sizes and offers a convenient dark mode toggle for enhanced user experience.
