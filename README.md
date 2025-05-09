@@ -134,25 +134,29 @@ This snippet showcases a visually appealing and informative pricing table that a
 This snippet showcases a user-friendly and secure payment form that provides a seamless checkout experience, including a clear invoice summary and multiple payment options.
   - live Preview: https://docsallover.com/snippets/bootstrap/bootstrap-5-payment-method-form-page-with-invoice/
 
-## 33. Bootstrap 5 Full Height Swiper Slider with Smooth Transitions
+## 34. Bootstrap 5 Full Height Swiper Slider with Smooth Transitions
 This snippet showcases a modern, full-screen Swiper slider powered by Bootstrap 5, offering seamless navigation and fluid visual effects.
   - live Preview: https://docsallover.com/snippets/bootstrap/bootstrap-5-full-height-swiper-slider/
 
-## 34. Bootstrap 5 Alerts for Error, Warning, Info, and Success
+## 35. Bootstrap 5 Alerts for Error, Warning, Info, and Success
 This snippet showcases clear and concise Bootstrap 5 alerts, delivering essential feedback with distinct visual cues for error, warning, info, and success.
   - live Preview: https://docsallover.com/snippets/bootstrap/bootstrap-5-alerts-for-error-warning-info-success/
 
-## 35. Dark Themed Bootstrap 5 Accordion with Custom Icons
+## 36. Dark Themed Bootstrap 5 Accordion with Custom Icons
 This snippet showcases a stylish dark-themed Bootstrap 5 accordion, delivering interactive content toggling with unique visual cues through custom icons.
   - live Preview: https://docsallover.com/snippets/bootstrap/dark-themed-bootstrap-5-accordion-with-custom-icon/
 
-## 36. Responsive Bootstrap 5 Breadcrumbs with Integrated Background Image
+## 37. Responsive Bootstrap 5 Breadcrumbs with Integrated Background Image
 This snippet showcases an elegant Bootstrap 5 breadcrumb navigation, delivering intuitive site orientation with a visually rich background image for added appeal.
   - live Preview: https://docsallover.com/snippets/bootstrap/responsive-bootstrap-5-breadcrumbs-with-bg-image/
 
-## 37. Responsive Bootstrap 5 Comment Submission Form Box
-This Bootstrap 5 snippet offers a ready-to-use, responsive comment submission form with a clean, user-friendly interface for seamless integration and optimal display across all devices, allowing visitors to easily share their thoughts and feedback
+## 38. Responsive Bootstrap 5 Comment Submission Form Box
+This Bootstrap 5 snippet offers a ready-to-use, responsive comment submission form with a clean, user-friendly interface for seamless integration and optimal display across all devices, allowing visitors to easily share their thoughts and feedback.
   - live Preview: https://docsallover.com/snippets/bootstrap/responsive-bootstrap-5-comment-submission-form-box/
+
+## 39. Bootstrap 5 Responsive Animated Server Error Modals Using CSS
+This Bootstrap 5 snippet provides responsive server error modals with clean CSS animations, ensuring seamless integration and clear communication of server-related problems across all screen sizes, allowing for a more user-friendly error handling process.
+  - live Preview: https://docsallover.com/snippets/bootstrap/bootstrap-5-responsive-animated-server-error-modal/
 
 
 ## License
