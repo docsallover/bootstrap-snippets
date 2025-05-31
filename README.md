@@ -166,6 +166,10 @@ This Bootstrap 5 snippet offers a ready-to-use, responsive comment submission fo
 This Bootstrap 5 snippet provides responsive server error modals with clean CSS animations, ensuring seamless integration and clear communication of server-related problems across all screen sizes, allowing for a more user-friendly error handling process.
   - live Preview: https://docsallover.com/snippets/bootstrap/bootstrap-5-responsive-animated-server-error-modal/
 
+## 40. Clean Bootstrap 5 Contact Form and Contact Details Layout
+This Bootstrap 5 snippet provides a clean and responsive contact form with integrated details, ensuring seamless communication and an organized 'Get in Touch' section across all screen sizes, allowing for a more user-friendly inquiry process.
+  - live Preview: https://docsallover.com/snippets/bootstrap/clean-bootstrap-5-contact-form-and-contact-details/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
