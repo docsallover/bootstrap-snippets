@@ -170,6 +170,10 @@ This Bootstrap 5 snippet provides responsive server error modals with clean CSS 
 This Bootstrap 5 snippet provides a clean and responsive contact form with integrated details, ensuring seamless communication and an organized 'Get in Touch' section across all screen sizes, allowing for a more user-friendly inquiry process.
   - live Preview: https://docsallover.com/snippets/bootstrap/clean-bootstrap-5-contact-form-and-contact-details/
 
+## 41. Responsive Bootstrap 5 Contact Form with Image Preview and Map
+This Bootstrap 5 snippet provides a comprehensive and responsive contact form with integrated image preview and an interactive map, ensuring seamless communication and a visually rich 'Get in Touch' experience across all screen sizes, allowing for a more engaging user interaction.
+  - live Preview: https://docsallover.com/snippets/bootstrap/responsive-bootstrap-5-contact-form-with-map/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
