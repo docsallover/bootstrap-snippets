@@ -174,6 +174,10 @@ This Bootstrap 5 snippet provides a clean and responsive contact form with integ
 This Bootstrap 5 snippet provides a comprehensive and responsive contact form with integrated image preview and an interactive map, ensuring seamless communication and a visually rich 'Get in Touch' experience across all screen sizes, allowing for a more engaging user interaction.
   - live Preview: https://docsallover.com/snippets/bootstrap/responsive-bootstrap-5-contact-form-with-map/
 
+## 42. Bootstrap 4 Pricing Cards with Monthly and Yearly Options
+This Bootstrap 4 snippet showcases a clean and effective pricing section, providing a clear and engaging way to present your services and plans with responsive monthly and yearly options.
+  - live Preview: https://docsallover.com/snippets/bootstrap/bootstrap-4-pricing-cards-with-month-year-options/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
