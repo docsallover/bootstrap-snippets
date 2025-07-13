@@ -178,6 +178,10 @@ This Bootstrap 5 snippet provides a comprehensive and responsive contact form wi
 This Bootstrap 4 snippet showcases a clean and effective pricing section, providing a clear and engaging way to present your services and plans with responsive monthly and yearly options.
   - live Preview: https://docsallover.com/snippets/bootstrap/bootstrap-4-pricing-cards-with-month-year-options/
 
+## 43. Bootstrap 5 Hero Section with Lottie Animation Integration
+This Bootstrap 5 snippet showcases a modern and impactful hero section, providing a dynamic and visually captivating introduction with seamless Lottie animation integration for your web projects.
+  - live Preview: https://docsallover.com/snippets/bootstrap/bootstrap-5-hero-section-with-lottie-animation/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
