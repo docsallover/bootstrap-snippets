@@ -182,6 +182,11 @@ This Bootstrap 4 snippet showcases a clean and effective pricing section, provid
 This Bootstrap 5 snippet showcases a modern and impactful hero section, providing a dynamic and visually captivating introduction with seamless Lottie animation integration for your web projects.
   - live Preview: https://docsallover.com/snippets/bootstrap/bootstrap-5-hero-section-with-lottie-animation/
 
+## 44. Responsive Bootstrap 5 Modern Features Section Component
+This Bootstrap 5 snippet showcases a modern and impactful features section, providing a clear and visually appealing way to highlight your product or service benefits with a responsive layout for all devices.
+  - live Preview: https://docsallover.com/snippets/bootstrap/responsive-bootstrap-5-modern-features-section/
+
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
