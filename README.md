@@ -186,6 +186,9 @@ This Bootstrap 5 snippet showcases a modern and impactful hero section, providin
 This Bootstrap 5 snippet showcases a modern and impactful features section, providing a clear and visually appealing way to highlight your product or service benefits with a responsive layout for all devices.
   - live Preview: https://docsallover.com/snippets/bootstrap/responsive-bootstrap-5-modern-features-section/
 
+## 45. Bootstrap 5 Hero Section with Integrated User Sign-up Form
+This Bootstrap 5 snippet showcases a modern and impactful hero section, providing a clear and conversion-focused way to capture user information with a seamlessly integrated sign-up form and a responsive layout.
+  - live Preview: https://docsallover.com/snippets/bootstrap/bootstrap-5-hero-section-with-integrated-user-form/
 
 
 ## License
