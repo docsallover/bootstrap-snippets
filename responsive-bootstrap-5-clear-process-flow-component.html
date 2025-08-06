@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Steps/Timeline</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts (Inter) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa; /* Light background */
+            color: #212529; /* Dark text */
+            padding: 40px 0;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #343a40;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+
+        .timeline {
+            position: relative;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        /* Vertical line in the middle */
+        .timeline::before {
+            content: '';
+            position: absolute;
+            width: 3px;
+            background-color: #dee2e6; /* Light grey line */
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 5px;
+        }
+
+        .timeline-item {
+            margin-bottom: 40px;
+            position: relative;
+            display: flex;
+            align-items: flex-start; /* Align text to the top of the card */
+        }
+
+        /* Items on the left side of the timeline */
+        .timeline-item.left {
+            flex-direction: row-reverse; /* Swap order for content on left side */
+        }
+
+        /* Items on the right side of the timeline */
+        .timeline-item.right {
+            flex-direction: row;
+        }
+
+        .timeline-content {
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 25px 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            position: relative;
+            flex-grow: 1; /* Allow content to take available space */
+        }
+
+        .timeline-date {
+            font-weight: 600;
+            color: #6c757d; /* Medium grey for date */
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+
+        .timeline-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #343a40;
+            margin-bottom: 10px;
+        }
+
+        .timeline-text {
+            color: #6c757d;
+            line-height: 1.6;
+        }
+
+        .timeline-icon {
+            width: 50px;
+            height: 50px;
+            min-width: 50px; /* Fixed width */
+            min-height: 50px; /* Fixed height */
+            background-color: #0d6efd; /* Bootstrap primary blue */
+            color: #ffffff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.3rem;
+            border: 3px solid #ffffff; /* White border around icon */
+            box-shadow: 0 0 0 4px rgba(13, 110, 253, 0.2); /* Light blue glow */
+            z-index: 1; /* Ensure icon is above the line */
+            margin: 0 25px; /* Space between icon and content */
+        }
+
+        /* Responsive adjustments */
+        @media (min-width: 768px) { /* Medium devices and up */
+            /* Positioning for left/right alignment */
+            .timeline-item.left .timeline-content {
+                margin-right: 50px;
+            }
+            .timeline-item.right .timeline-content {
+                margin-left: 50px;
+            }
+        }
+
+        @media (max-width: 767.98px) { /* Small devices (mobile) */
+            .timeline::before {
+                left: 20px; /* Move line to the left on small screens */
+                transform: translateX(0);
+            }
+            .timeline-item {
+                flex-direction: row; /* All items aligned to the left on mobile */
+                margin-bottom: 30px;
+                padding-left: 0;
+            }
+            .timeline-icon {
+                margin: 0 20px 0 0; /* Adjust margin for mobile to align with left line */
+                position: sticky; /* Keep icon visible if content scrolls vertically */
+                top: 20px; /* Adjust as needed */
+            }
+            .timeline-item .timeline-content {
+                width: calc(100% - 70px); /* Adjust width to account for icon and margin */
+                margin-left: 0; /* Remove left/right margins */
+                margin-right: 0;
+            }
+            .timeline-item.left .timeline-content {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2 class="section-title">Our Development Process</h2>
+
+        <div class="timeline">
+            <!-- Timeline Item 1: Right Aligned -->
+            <div class="timeline-item right">
+                <div class="timeline-icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Phase 1:</div>
+                    <h3 class="timeline-title">Ideation & Discovery</h3>
+                    <p class="timeline-text">
+                        We start by thoroughly understanding your vision, goals, and target audience. This phase involves
+                        brainstorming, market research, and defining the core features of your project.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Timeline Item 2: Left Aligned -->
+            <div class="timeline-item left">
+                <div class="timeline-icon">
+                    <i class="fas fa-pencil-ruler"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Phase 2:</div>
+                    <h3 class="timeline-title">Design & Prototyping</h3>
+                    <p class="timeline-text">
+                        Our design team crafts intuitive user interfaces and engaging user experiences. We create wireframes,
+                        mockups, and interactive prototypes for your review and feedback.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Timeline Item 3: Right Aligned -->
+            <div class="timeline-item right">
+                <div class="timeline-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Phase 3:</div>
+                    <h3 class="timeline-title">Development & Implementation</h3>
+                    <p class="timeline-text">
+                        Bringing designs to life, our developers write clean, efficient, and scalable code. We use agile
+                        methodologies to ensure flexibility and continuous improvement.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Timeline Item 4: Left Aligned -->
+            <div class="timeline-item left">
+                <div class="timeline-icon">
+                    <i class="fas fa-bug"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Phase 4:</div>
+                    <h3 class="timeline-title">Testing & Quality Assurance</h3>
+                    <p class="timeline-text">
+                        Rigorous testing is performed to identify and fix any bugs or issues. We ensure your solution is
+                        robust, secure, and performs flawlessly across all devices and browsers.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Timeline Item 5: Right Aligned -->
+            <div class="timeline-item right">
+                <div class="timeline-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Phase 5:</div>
+                    <h3 class="timeline-title">Deployment & Launch</h3>
+                    <p class="timeline-text">
+                        Your project goes live! We handle the deployment process, ensuring a smooth and successful launch.
+                        Post-launch support and monitoring are also provided.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle (Popper included) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -190,6 +190,11 @@ This Bootstrap 5 snippet showcases a modern and impactful features section, prov
 This Bootstrap 5 snippet showcases a modern and impactful hero section, providing a clear and conversion-focused way to capture user information with a seamlessly integrated sign-up form and a responsive layout.
   - live Preview: https://docsallover.com/snippets/bootstrap/bootstrap-5-hero-section-with-integrated-user-form/
 
+## 46. Responsive Bootstrap 5 Clear Process Flow Component
+This Bootstrap 5 snippet showcases a modern and impactful process flow component, providing a clear and visually appealing way to highlight your project stages with a responsive vertical timeline.
+  - live Preview: https://docsallover.com/snippets/bootstrap/responsive-bootstrap-5-process-flow-component/
+
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
