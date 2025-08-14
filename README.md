@@ -194,6 +194,9 @@ This Bootstrap 5 snippet showcases a modern and impactful hero section, providin
 This Bootstrap 5 snippet showcases a modern and impactful process flow component, providing a clear and visually appealing way to highlight your project stages with a responsive vertical timeline.
   - live Preview: https://docsallover.com/snippets/bootstrap/responsive-bootstrap-5-process-flow-component/
 
+## 47. Responsive Bootstrap 5 Compact FAQ Accordion Display
+This Bootstrap 5 snippet showcases a modern and compact FAQ section, providing a clear and organized way to present questions and answers with an interactive accordion display and a responsive layout.
+  - live Preview: https://docsallover.com/snippets/bootstrap/responsive-bootstrap-5-compact-faq-accordion/
 
 
 ## License
