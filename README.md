@@ -198,6 +198,10 @@ This Bootstrap 5 snippet showcases a modern and impactful process flow component
 This Bootstrap 5 snippet showcases a modern and compact FAQ section, providing a clear and organized way to present questions and answers with an interactive accordion display and a responsive layout.
   - live Preview: https://docsallover.com/snippets/bootstrap/responsive-bootstrap-5-compact-faq-accordion/
 
+## 48. Responsive Bootstrap 5 Detailed Features Section
+This Bootstrap 5 snippet showcases a modern and detailed features section, providing a clear and visually appealing way to highlight your product's benefits with a responsive layout.
+  - live Preview: https://docsallover.com/snippets/bootstrap/responsive-bootstrap-5-detailed-features-section/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
