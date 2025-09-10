@@ -202,6 +202,10 @@ This Bootstrap 5 snippet showcases a modern and compact FAQ section, providing a
 This Bootstrap 5 snippet showcases a modern and detailed features section, providing a clear and visually appealing way to highlight your product's benefits with a responsive layout.
   - live Preview: https://docsallover.com/snippets/bootstrap/responsive-bootstrap-5-detailed-features-section/
 
+## 49. Bootstrap 5 Responsive Service Pricing Table Block
+This Bootstrap 5 snippet showcases a modern and detailed pricing section, providing a clear and visually appealing way to highlight your service tiers with a responsive table layout.
+  - live Preview: https://docsallover.com/snippets/bootstrap/bootstrap-5-responsive-service-pricing-table-block/
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
